@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Sarah Mitchell | Expert Physiotherapy Care",
-  description: "Professional physiotherapy services specializing in sports rehabilitation, chronic pain management, and post-surgical recovery. Book your appointment today.",
-  keywords: ["physiotherapy", "physical therapy", "sports rehabilitation", "pain management", "recovery"],
+  title: "Shivam Physio Care | Expert Physiotherapy Services",
+  description: "Professional physiotherapy services at Shivam Physio Care. Specializing in sports rehabilitation, chronic pain management, and post-surgical recovery. Book your appointment today.",
+  keywords: ["physiotherapy", "physical therapy", "sports rehabilitation", "pain management", "recovery", "Shivam Physio Care"],
 };
 
 export const viewport: Viewport = {

@@ -39,21 +39,21 @@ export function About() {
             </div>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                With over 15 years of clinical experience, I&apos;ve had the privilege of helping 
-                thousands of patients overcome physical challenges and return to the activities 
-                they love. My journey in physiotherapy began with a simple belief: everyone 
-                deserves access to quality, personalized care.
+                At Shivam Physio Care, we bring over 15 years of clinical experience and have 
+                had the privilege of helping thousands of patients overcome physical challenges 
+                and return to the activities they love. Our journey began with a simple belief: 
+                everyone deserves access to quality, personalized care.
               </p>
               <p>
-                I specialize in treating a wide range of conditions, from sports injuries and 
+                We specialize in treating a wide range of conditions, from sports injuries and 
                 post-surgical rehabilitation to chronic pain management and neurological disorders. 
-                My approach combines cutting-edge techniques with time-tested methods to deliver 
+                Our approach combines cutting-edge techniques with time-tested methods to deliver 
                 results that last.
               </p>
               <p>
-                When I&apos;m not in the clinic, you&apos;ll find me conducting research on 
-                innovative treatment methods, mentoring the next generation of physiotherapists, 
-                or enjoying outdoor activities that keep me connected to the importance of movement.
+                Our team is dedicated to continuous learning and innovation, ensuring that every 
+                patient receives the most effective treatments available. We believe in building 
+                lasting relationships with our patients on their journey to recovery.
               </p>
             </div>
           </div>

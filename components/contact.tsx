@@ -5,22 +5,22 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    details: ["123 Wellness Center Drive", "Suite 200", "San Francisco, CA 94102"],
+    details: ["123 Health Street", "City Center", "State 12345"],
   },
   {
     icon: Phone,
     title: "Phone",
-    details: ["(123) 456-7890", "(123) 456-7891 (Fax)"],
+    details: ["+91 98765 43210"],
   },
   {
     icon: Mail,
     title: "Email",
-    details: ["info@drmitchellpt.com", "appointments@drmitchellpt.com"],
+    details: ["info@shivamphysiocare.com"],
   },
   {
     icon: Clock,
     title: "Hours",
-    details: ["Mon - Fri: 8 AM - 6 PM", "Saturday: 9 AM - 2 PM", "Sunday: Closed"],
+    details: ["Mon - Sat: 9 AM - 7 PM", "Sunday: Closed"],
   },
 ];
 

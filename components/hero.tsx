@@ -23,9 +23,9 @@ export function Hero() {
                 Restore Your Movement, Reclaim Your Life
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-                I&apos;m Dr. Sarah Mitchell, a certified physiotherapist dedicated to helping you 
-                overcome pain, recover from injuries, and achieve optimal physical health through 
-                personalized treatment plans.
+                At Shivam Physio Care, we are dedicated to helping you overcome pain, recover 
+                from injuries, and achieve optimal physical health through personalized treatment 
+                plans and expert care.
               </p>
             </div>
 
@@ -58,7 +58,7 @@ export function Hero() {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <Image
                 src="/images/physiotherapist-hero.jpg"
-                alt="Dr. Sarah Mitchell providing physiotherapy care"
+                alt="Shivam Physio Care - Professional physiotherapy treatment"
                 fill
                 className="object-cover"
                 priority
@@ -66,7 +66,7 @@ export function Hero() {
             </div>
             <div className="absolute -bottom-4 -left-4 bg-card p-4 rounded-xl shadow-lg border border-border">
               <p className="text-sm font-medium text-foreground">Available for Appointments</p>
-              <p className="text-xs text-muted-foreground">Mon - Sat, 8 AM - 6 PM</p>
+              <p className="text-xs text-muted-foreground">Mon - Sat, 9 AM - 7 PM</p>
             </div>
             <div className="absolute -top-4 -right-4 bg-primary text-primary-foreground p-4 rounded-xl shadow-lg">
               <p className="text-2xl font-bold">15+</p>

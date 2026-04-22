@@ -23,11 +23,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <Link href="/" className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">SM</span>
+              <span className="text-primary-foreground font-bold text-lg">SP</span>
             </div>
             <div className="hidden sm:block">
-              <p className="font-semibold text-foreground">Dr. Sarah Mitchell</p>
-              <p className="text-xs text-muted-foreground">Physiotherapist</p>
+              <p className="font-semibold text-foreground">Shivam Physio Care</p>
+              <p className="text-xs text-muted-foreground">Expert Physiotherapy</p>
             </div>
           </Link>
 
@@ -45,11 +45,11 @@ export function Header() {
 
           <div className="flex items-center gap-4">
             <a
-              href="tel:+1234567890"
+              href="tel:+919876543210"
               className="hidden sm:flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="w-4 h-4" />
-              <span>(123) 456-7890</span>
+              <span>+91 98765 43210</span>
             </a>
             <Button asChild className="hidden sm:inline-flex">
               <Link href="#book">Book Appointment</Link>

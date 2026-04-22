@@ -25,16 +25,17 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">SM</span>
+                <span className="text-primary-foreground font-bold text-lg">SP</span>
               </div>
               <div>
-                <p className="font-semibold">Dr. Sarah Mitchell</p>
-                <p className="text-xs text-background/60">Physiotherapist</p>
+                <p className="font-semibold">Shivam Physio Care</p>
+                <p className="text-xs text-background/60">Expert Physiotherapy</p>
               </div>
             </Link>
             <p className="text-background/70 leading-relaxed max-w-md mb-6">
               Dedicated to helping you achieve optimal physical health through personalized 
-              care and evidence-based treatments. Your journey to recovery starts here.
+              care and evidence-based treatments. Your journey to recovery starts here at 
+              Shivam Physio Care.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -70,12 +71,8 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Clinic Hours</h3>
             <ul className="space-y-2 text-background/70">
               <li className="flex justify-between">
-                <span>Monday - Friday</span>
-                <span>8 AM - 6 PM</span>
-              </li>
-              <li className="flex justify-between">
-                <span>Saturday</span>
-                <span>9 AM - 2 PM</span>
+                <span>Monday - Saturday</span>
+                <span>9 AM - 7 PM</span>
               </li>
               <li className="flex justify-between">
                 <span>Sunday</span>
@@ -87,7 +84,7 @@ export function Footer() {
 
         <div className="border-t border-background/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-background/60">
-            &copy; {new Date().getFullYear()} Dr. Sarah Mitchell. All rights reserved.
+            &copy; {new Date().getFullYear()} Shivam Physio Care. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-background/60">
             <Link href="#" className="hover:text-background transition-colors">
