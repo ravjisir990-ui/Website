@@ -31,7 +31,7 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="text-base">
-                <a href="https://forms.gle/3m4qb4FcmQ7bszFX6" target="_blank" rel="noopener noreferrer">
+                <a href="https://forms.gle/XCdXqELvSyPkEd6Q9" target="_blank" rel="noopener noreferrer">
                   Book Your Consultation
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </a>

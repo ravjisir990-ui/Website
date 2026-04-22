@@ -67,7 +67,7 @@ export function Contact() {
               appointment request form and we&apos;ll get back to you shortly.
             </p>
             <Button asChild size="lg" className="text-base">
-              <a href="https://forms.gle/3m4qb4FcmQ7bszFX6" target="_blank" rel="noopener noreferrer">
+              <a href="https://forms.gle/XCdXqELvSyPkEd6Q9" target="_blank" rel="noopener noreferrer">
                 Book Appointment
                 <ExternalLink className="w-4 h-4 ml-2" />
               </a>
