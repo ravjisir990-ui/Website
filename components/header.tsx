@@ -52,7 +52,7 @@ export function Header() {
               <span>+91 98765 43210</span>
             </a>
             <Button asChild className="hidden sm:inline-flex">
-              <Link href="#book">Book Appointment</Link>
+              <a href="https://forms.gle/3m4qb4FcmQ7bszFX6" target="_blank" rel="noopener noreferrer">Book Appointment</a>
             </Button>
             <button
               className="lg:hidden p-2 text-foreground"
@@ -79,9 +79,9 @@ export function Header() {
               </Link>
             ))}
             <Button asChild className="mt-4">
-              <Link href="#book" onClick={() => setMobileMenuOpen(false)}>
+              <a href="https://forms.gle/3m4qb4FcmQ7bszFX6" target="_blank" rel="noopener noreferrer" onClick={() => setMobileMenuOpen(false)}>
                 Book Appointment
-              </Link>
+              </a>
             </Button>
           </nav>
         </div>

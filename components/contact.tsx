@@ -1,5 +1,5 @@
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
-import { BookingForm } from "@/components/booking-form";
+import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const contactInfo = [
   {
@@ -60,9 +60,21 @@ export function Contact() {
             ))}
           </div>
 
-          <div id="book" className="lg:col-span-2 bg-card p-6 sm:p-8 rounded-xl border border-border">
-            <h3 className="text-xl font-semibold text-foreground mb-6">Book Your Appointment</h3>
-            <BookingForm />
+          <div id="book" className="lg:col-span-2 bg-card p-6 sm:p-8 rounded-xl border border-border flex flex-col items-center justify-center text-center">
+            <h3 className="text-xl font-semibold text-foreground mb-4">Book Your Appointment</h3>
+            <p className="text-muted-foreground mb-6 max-w-md">
+              Ready to start your recovery journey? Click the button below to fill out our 
+              appointment request form and we&apos;ll get back to you shortly.
+            </p>
+            <Button asChild size="lg" className="text-base">
+              <a href="https://forms.gle/3m4qb4FcmQ7bszFX6" target="_blank" rel="noopener noreferrer">
+                Book Appointment
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
+            </Button>
+            <p className="text-sm text-muted-foreground mt-4">
+              Or call us directly at <a href="tel:+919876543210" className="text-primary hover:underline">+91 98765 43210</a>
+            </p>
           </div>
         </div>
       </div>

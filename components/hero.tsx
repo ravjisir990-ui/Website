@@ -31,10 +31,10 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="text-base">
-                <Link href="#book">
+                <a href="https://forms.gle/3m4qb4FcmQ7bszFX6" target="_blank" rel="noopener noreferrer">
                   Book Your Consultation
                   <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
+                </a>
               </Button>
               <Button asChild variant="outline" size="lg" className="text-base">
                 <Link href="#services">Explore Services</Link>
